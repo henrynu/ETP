@@ -50,6 +50,7 @@ the number of ET BullBTC share purchased = purchase amount / ( NAV of ET BearBTC
 > input:
 > - Bxxxxxxxxx , ...
 > - Byyyyyyyyy , ...
+
 > output:
 > - BBearBTCaddr, 1000
 > - Bzzzzzzzzzzz, ....
@@ -72,6 +73,7 @@ the amount of cash out = the valid number of share in redemption * ( NAV of ET B
 > input:
 > - Bxxxxxxxxx , ...
 > - Byyyyyyyyy , ...
+
 > output:
 > - BBearBTCaddr, 0.1
 > - Bzzzzzzzzzzz, ....
@@ -94,6 +96,7 @@ the number of share sent = MIN ( the number of BearBTC / BullBTC share in holdin
 > input:
 > - Bxxxxxxxxx , ...
 > - Byyyyyyyyy , ...
+
 > output:
 > - BBullBTCaddr, 0.1
 > - Bzzzzzzzzzzz, 0.0001
@@ -117,6 +120,7 @@ the number of share sent = MIN ( the number of BearBTC / BullBTC share in holdin
 > input:
 > - Bxxxxxxxxx , ...
 > - Byyyyyyyyy , ...
+
 > output:
 > - ExchangeBuyAddr, 200
 > - Bsssssssssss, ....
@@ -140,6 +144,7 @@ the valid number of share to buy  = MIN ( the amount of cash in holding, ( 10000
 > input:
 > - Bxxxxxxxxx , ...
 > - Byyyyyyyyy , ...
+
 > output:
 > - BBullBTCaddr, 0.1
 > - ExchangeSellAddr, 0.1231
@@ -152,6 +157,7 @@ the valid number of share to buy  = MIN ( the amount of cash in holding, ( 10000
 > input:
 > - Bxxxxxxxxx , ...
 > - Byyyyyyyyy , ...
+
 > output:
 > - BBearBTCaddr, 0.1
 > - ExchangeBuyAddr, 0.1231
@@ -174,6 +180,7 @@ the amount of cash withdraw = MIN ( the amount of cash in holding, 10000 * amoun
 > input:
 > - Bxxxxxxxxx , ...
 > - Byyyyyyyyy , ...
+
 > output:
 > - BBearBTCaddr, 0.1
 > - ExchangeBuyAddr, 0.0011
@@ -196,6 +203,7 @@ the amount of cash withdraw = MIN ( the amount of cash in holding, 10000 * amoun
 > input:
 > - Bxxxxxxxxx , ...
 > - Byyyyyyyyy , ...
+
 > output:
 > - ExchangeBuyAddr, 0.11
 > - Bsssssssssss, ....
@@ -249,6 +257,7 @@ the number of BullBTC / BearBTC shares as dividend = (the greater NAV of BullBTC
 >  - BearBTC: 0.4
 >  - BullBTC: 2.0
 >  - Pool ET: 1.2
+
 > Holding before adjustment
 >  - User A: 1000 shares of BearBTC, Value = 400
 >  - User B: 1000 shares of BullBTC, Value = 2000
@@ -257,9 +266,11 @@ the number of BullBTC / BearBTC shares as dividend = (the greater NAV of BullBTC
 >  - BearBTC: 1
 >  - BullBTC: 1
 >  - Pool ET: 1
+
 > Dividend payment
 >  - User A: None
 >  - User B: 800 shares of BullBTC + 800 shares of BearBTC
+
 > Holding after adjustment
 >  - User A: 400 shares of BearBTC, Value = 400
 >  - User B: 400 shares of BullBTC + 800 shares of BullBTC + 800 shares of BearBTC, Value = 2000
